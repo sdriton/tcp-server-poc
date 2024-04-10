@@ -1,0 +1,13 @@
+{
+  "name": "tcp-server-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tcp-client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Driton Salihu",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
