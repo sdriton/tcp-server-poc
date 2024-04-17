@@ -1,4 +1,5 @@
 const net = require('net');
+const fs = require("fs");
 
 // Run program:
 // node tcp-server.js 3001
@@ -12,7 +13,9 @@ const server = net.createServer((socket) => {
 
   // Send data to the client every second
   const intervalId = setInterval(() => {
-    const data = 'Hello, client!\r\n';
+    const fileContent = fs.readFileSync("results.json");
+    // const data = 'Hello, client!\r\n';
+    const data = fileContent + "\r\n";
     socket.write(data);
   }, 1000);
 

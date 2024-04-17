@@ -1,0 +1,99 @@
+[
+  {
+    "kind": "specialEvent",
+    "eventLocation": "1 jarry",
+    "eventType": "BBQ",
+    "eventName": "Test lenteurs en dévelop",
+    "isPublic": true,
+    "language": "fr",
+    "dailyAudience": 55,
+    "hasSpecialEffects": false,
+    "requester": {
+      "firstName": "Clepetar",
+      "lastName": "Perusse",
+      "addresses": [
+        {
+          "type": "",
+          "streetAddress": "1 sss",
+          "country": "CA",
+          "region": "QC",
+          "locality": "Montréal",
+          "postalCode": "D3D 3D3",
+          "primary": true
+        }
+      ],
+      "phones": [
+        {
+          "value": "2312123123",
+          "primary": true,
+          "type": "home"
+        }
+      ],
+      "emails": [
+        {
+          "value": "a@a.com",
+          "primary": true,
+          "type": "Work"
+        }
+      ]
+    },
+    "activities": [
+      {
+        "kind": "gatheringAndLiquorLicense",
+        "isInterior": true,
+        "hasFireAlarm": true,
+        "maxParticipant": 55,
+        "maxParticipantsAtInterior": 50,
+        "maxParticipantsAtTerrace": 5,
+        "hasLiquorPermit": true,
+        "eventFloor": "ETAGERDC"
+      }
+    ],
+    "mountingSchedules": [
+      {
+        "startDateTime": "2022-12-25T17:34:40.000Z",
+        "endDateTime": "2022-12-25T17:34:40.000Z"
+      }
+    ],
+    "places": [
+      {
+        "placeId": "5db1910b1c759a3c345bc4a4"
+      }
+    ],
+    "files": [],
+    "isAutoApproved": true,
+    "schedules": [
+      {
+        "startDateTime": "2022-12-26T01:00:00.000Z",
+        "endDateTime": "2022-12-26T04:00:00.000Z"
+      }
+    ],
+    "cityId": "MTL",
+    "boroughId": "AC",
+    "publicPermitNumber": "AC-20200128-001",
+    "eventDuration": "DUR1JOUROUMOINS",
+    "eventDescription": "aaaa",
+    "resourcePerson": {
+      "phones": [
+        {
+          "value": "2342323423",
+          "type": "work",
+          "primary": true
+        }
+      ],
+      "firstName": "aaaa",
+      "lastName": "aaaa",
+      "jobTitle": "aaaa",
+      "emails": []
+    },
+    "technicalAgentId": "5db190fd1c759a3c345bbf48",
+    "operationalSupportAgentId": "5db190fd1c759a3c345bbf4a",
+    "applicationNumber": "20200128-63908",
+    "requestStatusCode": "RSAUTORISE",
+    "audit": {
+      "createdAt": "2020-01-28T21:08:24.923Z",
+      "lastModifiedAt": "2020-01-28T21:08:24.923Z"
+    },
+    "id": "5e30a2c81e79ec000fc03084"
+  }
+]

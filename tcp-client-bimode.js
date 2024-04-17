@@ -8,7 +8,7 @@ const SERVER_2_HOST = 'localhost';
 const SERVER_2_PORT = 3001;
 
 // Define the heartbeat interval in milliseconds
-const HEARTBEAT_INTERVAL = 3000;
+const HEARTBEAT_INTERVAL = 10000;
 
 // Define the backoff parameters
 const INITIAL_RECONNECT_DELAY = 1000; // in milliseconds
